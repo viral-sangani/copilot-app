@@ -105,7 +105,7 @@ export default function Home() {
               alt="Celo"
               className="h-8"
             />
-            <span className="text-xl text-hero-text ml-1.5 tracking-[-0.02em] font-serif italic">
+            <span className="text-xl font-bold text-hero-text ml-1.5 tracking-[-0.02em] font-serif">
               Copilot
             </span>
           </a>
