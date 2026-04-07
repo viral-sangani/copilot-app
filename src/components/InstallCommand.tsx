@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function InstallCommand() {
   const [copied, setCopied] = useState(false);
-  const command = "npx openskills install celo-org/copilot -g";
+  const command = "npx skills add celo-org/copilot";
 
   function handleCopy() {
     navigator.clipboard.writeText(command);
