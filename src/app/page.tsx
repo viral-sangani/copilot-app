@@ -34,7 +34,7 @@ const FEATURES = [
     stat: "11M+",
     label: "MiniPay Wallets",
     description:
-      "Build Mini Apps for the fastest-growing stablecoin wallet. Templates, detection, payments, and testing guides included.",
+      "Mini Apps, wallet detection, stablecoin payments, ngrok testing \u2014 plus phone-to-address lookup via ODIS (PnP), OdisPayments quota, and FederatedAttestations (MiniPay issuer in skill).",
   },
   {
     stat: "10+",
@@ -49,6 +49,7 @@ const TOPIC_CLUSTERS = [
   "Stablecoins",
   "Payments",
   "MiniPay",
+  "ODIS",
   "AI Agents",
   "RWA",
   "Identity",
@@ -79,6 +80,11 @@ const USE_CASES = [
     title: "Build a MiniPay Mini App",
     description:
       "Wallet detection, auto-connect, stablecoin payments, ngrok testing \u2014 with 5 ready-to-use code templates.",
+  },
+  {
+    title: "Resolve phone numbers to wallets (MiniPay / ODIS)",
+    description:
+      "Step-by-step ODIS PnP flow: quota and OdisPayments, ContractKit + @celo/identity, FederatedAttestations, and the MiniPay issuer address \u2014 from odis-socialconnect.md.",
   },
   {
     title: "Integrate DeFi protocols",

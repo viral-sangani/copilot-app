@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Celo Copilot — Know the ecosystem before you build",
   description:
-    "The comprehensive skill for building on Celo. Ecosystem intelligence, DeFi protocols, MiniPay development, AI agent infrastructure, grants, and verified contract addresses — all in one install.",
+    "The comprehensive skill for building on Celo. Ecosystem intelligence, DeFi protocols, MiniPay development and ODIS phone-to-wallet lookup, AI agent infrastructure, grants, and verified contract addresses — all in one install.",
   openGraph: {
     title: "Celo Copilot",
     description: "Know the ecosystem before you build.",

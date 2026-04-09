@@ -80,6 +80,38 @@ const DEMOS: { prompt: string; lines: Line[] }[] = [
     ],
   },
   {
+    prompt:
+      "How do I resolve a phone number to a MiniPay wallet on mainnet?",
+    lines: [
+      { type: "output", text: "Loading odis-socialconnect.md + guides..." },
+      { type: "output", text: "" },
+      {
+        type: "result",
+        text: "ODIS (PnP) + FederatedAttestations \u2014 SocialConnect pattern",
+      },
+      { type: "output", text: "" },
+      { type: "result", text: "  1. Ensure PnP quota (OdisPayments.payInCUSD + allowance)" },
+      {
+        type: "result",
+        text: "  2. getObfuscatedIdentifier(E.164, ContractKit + @celo/identity)",
+      },
+      {
+        type: "result",
+        text: "  3. lookupAttestations(hash, [MiniPay issuer])",
+      },
+      { type: "output", text: "" },
+      {
+        type: "result",
+        text: "  MiniPay issuer: 0x7888612486844Bb9BE598668081c59A9f7367FBc",
+      },
+      { type: "output", text: "" },
+      {
+        type: "highlight",
+        text: "Quota \u2260 wallet balance \u2014 top up ODIS before lookups.",
+      },
+    ],
+  },
+  {
     prompt: "What grants can I apply to right now?",
     lines: [
       { type: "output", text: "Fetching celopg.eco/programs..." },
